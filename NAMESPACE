@@ -1,4 +1,4 @@
-export(authenticate)
+export(oauth)
 importFrom(RCurl,curlEscape)
 importFrom(httr,GET)
 importFrom(httr,accept_json)
