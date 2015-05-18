@@ -2,22 +2,22 @@
 if (getRversion() >= "2.15.1") utils::globalVariables(c("GADCMToken"))
 
 # Environment for OAuth token
-GADCMToken <- new.env(parent = emptyenv())
+GADCMEnv <- new.env(parent = emptyenv())
 
 # Check token exists
 token_exists <- function(name) {
-  exists(name, envir = GADCMToken)
+  exists(name, envir = GADCMEnv)
 }
 
 # Set token to environment
 set_token <- function(name, value) {
-  assign(name, value, envir = GADCMToken)
+  assign(name, value, envir = GADCMEnv)
   return(value)
 }
 
 # Get token from environment
 get_token <- function(name) {
-  get(name, envir = GADCMToken)
+  get(name, envir = GADCMEnv)
 }
 
 # Check if environment variables exists

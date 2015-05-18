@@ -5,7 +5,6 @@
 #'
 #' @section Accessible Google Products:
 #'
-#'
 #' To report a bug please type: \code{utils::bug.report(package = "analytics")}.
 #'
 #' @section Useage:
@@ -28,7 +27,6 @@
 #' @name analytics
 #' @docType package
 #' @keywords package
-#' @aliases analytics doubleclick
 #'
 #' @examples
 #' \dontrun{
