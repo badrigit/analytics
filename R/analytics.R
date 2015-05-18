@@ -36,5 +36,6 @@
 #' library(analytics)
 #' # get access token
 #' oauth()
+#' }
 #'
 NULL

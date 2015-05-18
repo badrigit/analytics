@@ -1,17 +1,29 @@
 Package: analytics
-Title: Google Analytics & Doubleclick Campaign Manager API Client
-Description: A package for seemless API connection to Google Analytics and Doubleclick Campaign Manager
-Url: https://github.com/badrigit/analytics
+Type: Package
+Title: A Google Analytics and Doubleclick Campaign Manager API Client
+Description: Provides functionality to perform advanced tasks in Google Analytics and Doubleclick Campaign Manager, for example
+  upload custom data into Google Analytics, download data from DCM and so on
+URL: https://github.com/badrigit/analytics
 BugReports: https://github.com/badrigit/analytics/issues
 Version: 0.1
 Date: 2015-05-18
-Maintainer: BadriNarayanan Srinivasan <badri.it@gmail.com>
-Author: BadriNarayanan Srinivasan <badri.it@gmail.com>
+Authors@R: c(
+    person(given = "BadriNarayanan", family = "Srinivasan",
+    email = "badri.it@gmail.com", role = c("aut", "cre")))
+License: GPL (>= 2)
 Depends:
-    R (>= 2.13.0),
+    R (>= 3.0.0)
+Imports:
+    httr (>= 0.6),
+    httpuv,
     RCurl,
     jsonlite,
-    httr
-Imports:
-    methods
-License: GPL (>= 2)
+    shiny (>= 0.11)
+Collate:
+    'analytics.R'
+    'authenticate.R'
+Suggests:
+    knitr,
+    testthat
+VignetteBuilder: knitr
+LazyData: true
