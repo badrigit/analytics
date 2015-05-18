@@ -104,7 +104,7 @@ oauth <- function(clientId, clientSecret, cache = getOption("gadcmCache")){
   }
   
   gadcmApp <- oauth_app(appname = "GADCM", key = clientId, secret = clientSecret)
-  token <- oauth2.0_token(endpoint = oauth_endpoints("google"), app = gadcmApp, cache = cache,
+  gadcmToken <- oauth2.0_token(endpoint = oauth_endpoints("google"), app = gadcmApp, cache = cache,
                           scope = scopes)
   set_token(getOption("gadcmToken"), token)
   invisible(token)
