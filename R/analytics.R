@@ -20,7 +20,7 @@
 #'
 #' @section Bug reports:
 #'
-#' To report a bug please type into R: \code{utils::bug.report(package = "RGA")}
+#' To report a bug please type into R: \code{utils::bug.report(package = "analytics")}
 #'
 #' @author
 #' BadriNarayanan Srinivasan \email{badri.it@@gmail.com}
