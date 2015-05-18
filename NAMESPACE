@@ -1,5 +1,4 @@
-export(authenticate.R)
-import(httpuv)
+export(authenticate)
 importFrom(RCurl,curlEscape)
 importFrom(httr,GET)
 importFrom(httr,accept_json)

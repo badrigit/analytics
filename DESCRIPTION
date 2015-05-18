@@ -15,6 +15,3 @@ Depends:
 Imports:
     methods
 License: GPL (>= 2)
-Collate:
-    'authenticate.R'
-    'analytics.R'
