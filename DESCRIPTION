@@ -16,5 +16,5 @@ Imports:
     methods
 License: GPL (>= 2)
 Collate:
-    'authenicate.R'
+    'authenticate.R'
     'analytics.R'
