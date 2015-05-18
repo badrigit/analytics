@@ -1,0 +1,9 @@
+Package: analytics
+Type: Package
+Title: Google Analytics and Doubleclick campaign manager API client
+Version: 1.0
+Date: 2015-05-18
+Author: BadriNarayanan Srinivasan
+Maintainer: BadriNarayanan.Srinivasan@iProspect.com
+Description: Integrate or analyse data from Google Analytics and Doubleclick campaign manager
+License: GPL (>=2)
