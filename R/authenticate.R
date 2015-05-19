@@ -91,7 +91,7 @@ scopes <- c("https://www.googleapis.com/auth/analytics",
 #'
 
 # OAuth to Google Analytics & Doubleclick Campaign Manager
-oauth <- function(clientId, clientSecret, cache = getOption("gadcmCache")){
+oauth <- function(clientId, clientSecret, cache = "gadcmCache"){
   if (missing(clientId) || missing(clientSecret)) {
     if (all(env_exists("gadcmClientId", "gadcmClientSecret"))) {
       message("client id and client secret loaded from environment variables")
