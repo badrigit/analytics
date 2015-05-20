@@ -43,7 +43,7 @@ dcmGetReportStatus <- function(reportId, fileId, token){
 #' 
 #' @export
 #'
-runDcmReport = function(profileId = NULL, reportId = NULL, token) {
+runDcmReport <- function(profileId = NULL, reportId = NULL, token) {
   
   # Run the report
   fileId <- dcmGetReportFile(profileId, reportId, token)
