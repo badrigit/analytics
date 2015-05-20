@@ -41,5 +41,4 @@ gaUploadData <- function(accountId = NULL, webPropertyId = NULL, customDataSourc
   } else {
     return("failed")
   }
-  return(response)
 }
