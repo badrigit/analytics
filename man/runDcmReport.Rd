@@ -14,16 +14,19 @@ runDcmReport(profileId = NULL, reportId = NULL, token)
 \item{token}{\code{\link[httr]{Token2.0}} class object with a valid authorization data.}
 }
 \value{
-Report configuration details
-\item More information in references
+Report configuration details.
+
+\enumerate{
+ \item More information in references.
+}
 }
 \description{
 Get report configuration details from Doubleclick Campaign Manager
 }
 \references{
-\href{https://developers.google.com/doubleclick-advertisers/reporting/v2.1/reports#resource}
+\href{https://developers.google.com/doubleclick-advertisers/reporting/v2.1/reports#resource}{DCM Report Resources}
 
-\href{https://developers.google.com/doubleclick-advertisers/reporting/v2.1/reports/get}
+\href{https://developers.google.com/doubleclick-advertisers/reporting/v2.1/reports/get}{DCM Report File Get Method}
 }
 \seealso{
 \code{\link{oauth}}

@@ -1,5 +1,6 @@
 # Function to check report file status
 #' @importFrom httr GET config accept_json content
+#' @importFrom httr POST config accept_json content
 #' @importFrom jsonlite fromJSON
 dcmGetReportFile <- function(profileId, reportId, token){
   url <- paste("https://www.googleapis.com/dfareporting/v2.1/userprofiles/",
@@ -25,15 +26,19 @@ dcmGetReportStatus <- function(reportId, fileId, token){
 #' @param reportId integer or character. Report ID within report builder section of DCM.
 #' @param token \code{\link[httr]{Token2.0}} class object with a valid authorization data.
 #'
-#' @return Report configuration details
-#' \item More information in references
+#' @return Report configuration details.
+#' 
+#' \enumerate{
+#'  \item More information in references.
+#' }
 #'
 #' @seealso \code{\link{oauth}}
 #'
 #' @references
-#' \href{https://developers.google.com/doubleclick-advertisers/reporting/v2.1/reports#resource}
+#' 
+#' \href{https://developers.google.com/doubleclick-advertisers/reporting/v2.1/reports#resource}{DCM Report Resources}
 #'
-#' \href{https://developers.google.com/doubleclick-advertisers/reporting/v2.1/reports/get}
+#' \href{https://developers.google.com/doubleclick-advertisers/reporting/v2.1/reports/get}{DCM Report File Get Method}
 #'
 #' @family DCM/DFA Reporting and Trafficking API
 #'
