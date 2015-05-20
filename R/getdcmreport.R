@@ -63,6 +63,7 @@ runDcmReport <- function(profileId = NULL, reportId = NULL, token) {
       status <- T
       apiUrl <- getReportFile$urls$apiUrl
     }
+    print("Processing...")
   }
   
   if(status == T){
