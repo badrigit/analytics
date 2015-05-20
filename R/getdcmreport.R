@@ -45,7 +45,6 @@ dcmGetReportStatus <- function(reportId, fileId, token){
 #' @include authenticate.R
 #'
 #' @importFrom httr GET config accept_json content
-#' @import RCurl
 #' 
 #' @export
 #'
@@ -69,7 +68,7 @@ runDcmReport <- function(profileId = NULL, reportId = NULL, token) {
   if(status == T){
     retrieveUrl <- GET(url = apiUrl, accept_json(), config = config(token = token))
     url <- retrieveUrl$url # has expiry
-    download.file(url = url, destfile = "localFile.csv", method = "curl")
+    download.file(url = url, destfile = "localFile.csv", method = "libcurl")
   }
   
   return("dowloaded")
