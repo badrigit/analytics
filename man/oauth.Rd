@@ -4,7 +4,7 @@
 \alias{oauth}
 \title{Authorise analytics package to connect with Google Analytics and Doubleclick Campaign Manager (DFA) using OAuth 2.0}
 \usage{
-oauth(clientId, clientSecret, cache = getOption("gadcmCache"))
+oauth(clientId, clientSecret, cache = "gadcmCache")
 }
 \arguments{
 \item{clientId}{character. OAuth client ID. if clientId is missing, we'll look in the environment variable \code{gadcmClientId}.}

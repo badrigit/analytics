@@ -1,8 +1,9 @@
 Package: analytics
 Type: Package
 Title: A Google Analytics and Doubleclick Campaign Manager API Client
-Description: Provides functionality to perform advanced tasks in Google Analytics and Doubleclick Campaign Manager, for example
-  upload custom data into Google Analytics, download data from DCM and so on
+Description: Provides functionality to perform advanced tasks in Google
+    Analytics and Doubleclick Campaign Manager, for example upload custom data
+    into Google Analytics, download data from DCM and so on
 URL: https://github.com/badrigit/analytics
 BugReports: https://github.com/badrigit/analytics/issues
 Version: 0.1

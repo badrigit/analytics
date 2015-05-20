@@ -4,13 +4,11 @@
 \name{analytics}
 \alias{analytics}
 \alias{analytics-package}
-\alias{doubleclick}
 \title{A Google Analytics and Doubleclick Campaign Manager API client for R}
 \description{
 A package to do advanced tasks with Google Analytics and Doubleclick Campaign Manager, especially data integration and analysis
 }
 \section{Accessible Google Products}{
-
 
 
 To report a bug please type: \code{utils::bug.report(package = "analytics")}.
