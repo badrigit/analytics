@@ -22,6 +22,7 @@ Imports:
 Collate:
     'analytics.R'
     'authenticate.R'
+    'getdcmreport.R'
 Suggests:
     knitr,
     testthat
