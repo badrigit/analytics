@@ -1,5 +1,13 @@
 # analytics
-Google Analytics &amp; Doubleclick Campaign Manager API client
+Google Analytics and Doubleclick Campaign Manager API client
+
+Currently available functionality:
+
+Doubleclick Campaign Manager:
+Run DCM report and download it as a csv file
+
+Google Analytics:
+Get list of custom data sources
 
 To install development version
 

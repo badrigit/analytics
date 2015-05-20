@@ -45,7 +45,6 @@ dcmGetReportStatus <- function(reportId, fileId, token){
 #' @include authenticate.R
 #'
 #' @importFrom httr GET config accept_json content
-#' @import curl
 #' 
 #' @export
 #'
