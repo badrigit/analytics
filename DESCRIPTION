@@ -6,7 +6,7 @@ Description: Provides functionality to perform advanced tasks in Google
     into Google Analytics, download data from DCM and so on
 URL: https://github.com/badrigit/analytics
 BugReports: https://github.com/badrigit/analytics/issues
-Version: 0.1
+Version: 0.0.0.9000
 Date: 2015-05-18
 Authors@R: c(
     person(given = "BadriNarayanan", family = "Srinivasan",
