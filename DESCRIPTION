@@ -25,6 +25,7 @@ Collate:
     'authenticate.R'
     'dcmreport.R'
     'gadataimport.R'
+    'gadataupload.R'
 Suggests:
     knitr,
     testthat
