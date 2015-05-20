@@ -23,7 +23,8 @@ Imports:
 Collate:
     'analytics.R'
     'authenticate.R'
-    'getdcmreport.R'
+    'dcmreport.R'
+    'gadataimport'
 Suggests:
     knitr,
     testthat
