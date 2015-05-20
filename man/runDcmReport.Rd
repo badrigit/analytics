@@ -30,7 +30,5 @@ Get report configuration details from Doubleclick Campaign Manager
 }
 \seealso{
 \code{\link{oauth}}
-
-Other res: \code{\link{listGaCustomDatasources}}
 }
 

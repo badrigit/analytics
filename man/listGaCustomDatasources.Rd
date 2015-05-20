@@ -31,6 +31,6 @@ List Google Analytics custom data source configuration details
 \seealso{
 \code{\link{oauth}}
 
-Other res: \code{\link{runDcmReport}}
+Other Google Analytics Management API: \code{\link{gaUploadData}}
 }
 
